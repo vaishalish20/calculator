@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    height:100vh;
+    background-color: #EAC7C7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    background-color: #FFF5E4;
+    padding:20px;
+    border-radius: 10px;
+}
+ .calculator table input{
+    border:0;
+    outline:0;
+    width:60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.2);
+    background: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    color:#A7727D;
+    cursor: pointer;
+    margin:10px;
+}
+table .display{
+    display: flex;
+    justify-content: flex-start;
+}
+table .display input{
+    text-align: right;
+    flex:1;
+    font-size:40px;
+    box-shadow:none;
+}
+.heading{
+    background-color: #EAC7C7;
+    color:white;
+    font-family: 'Mynerve';
+    font-size: medium;
+}
